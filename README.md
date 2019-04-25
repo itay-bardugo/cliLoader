@@ -40,7 +40,8 @@ after setting the config class, just init the loader component
 ```
 
 ### display the loader
-assuming our for loop is our process, and every single iteration increments our process by 1, we will call `loader.show("progress_bar_text", 1)` method like that:
+assuming our for loop is our process, and every single iteration increments our process by 1
+`loader.show("progress_bar_text", 1)` method like that:
 ```
 for x in range(0, config.destination+1):
         loader.show(f"Completed: {x}/{config.destination}", 1) # 1 = the expressions of the process progress 
