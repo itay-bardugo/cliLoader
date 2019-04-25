@@ -1,9 +1,13 @@
 # cliLoader
+
 cliLoader is a simple command line progress bar
 all you need to do is:
   - set the config for your progress bar, including text's, color's, width, etc..
   - locate the progress bar inside your process
   - update the component with the number of your completed steps (see the examples)
+
+![alt text](https://raw.githubusercontent.com/itay-bardugo/cliLoader/master/cliloader.png)
+
 
 ### Installation
 
